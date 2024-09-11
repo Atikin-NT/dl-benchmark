@@ -88,8 +88,6 @@ def download_dgl_models(output_dir: Path = OUTPUT_DIR):
     download_file(dgl_py_link, dgl_dir, 'GCN.py')
 
 
-<<<<<<< HEAD
-=======
 def download_citation_gcn(output_dir: Path = OUTPUT_DIR):
     cit_gcn_dir = Path(output_dir, 'citation-gcn')
     cit_gcn_link = ('https://raw.githubusercontent.com/itlab-vision/itlab-vision-dl-benchmark-models/main/'
@@ -97,7 +95,6 @@ def download_citation_gcn(output_dir: Path = OUTPUT_DIR):
     download_file(cit_gcn_link, cit_gcn_dir, 'citation-gcn.keras')
 
 
->>>>>>> bcaf87aa3b237dd66b118ce03315256b08542862
 def download_resnet50(output_dir: Path = OUTPUT_DIR):
     resnet_dir = Path(output_dir, 'resnet50')
     resnet_so_link = ('https://raw.githubusercontent.com/itlab-vision/itlab-vision-dl-benchmark-models/main/'
